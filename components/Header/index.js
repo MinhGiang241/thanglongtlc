@@ -4,8 +4,8 @@ import Logo from "../Logo";
 
 const Header = (props) => {
 	return (
-		<div className="">
-			<div className="w-full fixed bg-gradient-to-r from-teal-500 via-indigo-500 to-fuchsia-500 flex items-center justify-between">
+		<div className="sticky top-0 z-50">
+			<div className="w-full bg-gradient-to-r from-teal-500 via-indigo-500 to-fuchsia-500 flex items-center justify-between">
 				<Logo className="" />
 				<ul className="flex">
 					{props.headers.map((i, k) => (
