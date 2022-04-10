@@ -4,7 +4,7 @@ import Logo from "../Logo";
 
 const Header = (props) => {
 	return (
-		<div className="sticky top-0 z-50">
+		<div className="sticky shadow-md shadow-gray-600 top-0 z-50">
 			<div className="w-full bg-gradient-to-r from-teal-500 via-indigo-500 to-fuchsia-500 flex items-center justify-between">
 				<Logo className="" />
 				<ul className="flex">
