@@ -18,7 +18,6 @@ const Contact = ({ email, phone, address }) => {
 					<iframe
 						width="100%"
 						height="300px"
-						frameborder="1"
 						src="https://www.google.com/maps/embed/v1/view?key=AIzaSyCW2rD1iN9Jt7LP0N5R4t2NE5L9QME1bFg&center=21.0894303,105.7855476&zoom=19"
 						allowfullscreen
 					></iframe>
