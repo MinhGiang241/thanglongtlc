@@ -12,6 +12,7 @@ const Project = ({ data }) => {
 			<div className="max-w-5xl  mx-10 flex justify-center space-y-5 flex-wrap w-full mb-4">
 				{data.map((i, k) => (
 					<div
+						key={k}
 						className={`w-full flex ${
 							k % 2 === 0 ? "flex-row" : "flex-row-reverse"
 						}  shadow-md shadow-gray-500 bg-gradient-to-r from-yellow-200 to-rose-200`}
