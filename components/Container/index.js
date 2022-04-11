@@ -3,6 +3,7 @@ import Landing from "../Landing";
 import Name from "../Name";
 import Intro from "../Intro";
 import Field from "../Field";
+import Project from "../Project"
 
 const Container = () => {
 	return (
@@ -11,6 +12,7 @@ const Container = () => {
 			<Name />
 			<Intro />
 			<Field />
+			<Project/>
 		</div>
 	);
 };
