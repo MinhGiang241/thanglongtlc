@@ -9,7 +9,7 @@ const Project = ({ data }) => {
 					Dự án
 				</p>
 			</div>
-			<div className="max-w-5xl  mx-10 flex justify-center space-y-5 flex-wrap w-full mb-4">
+			<div className="max-w-5xl mb-8 mx-10 flex justify-center space-y-5 flex-wrap w-full mb-4">
 				{data.map((i, k) => (
 					<div
 						key={k}
@@ -33,7 +33,7 @@ const Project = ({ data }) => {
 					</div>
 				))}
 			</div>
-			<hr />
+			<hr className="w-full" />
 		</div>
 	);
 };

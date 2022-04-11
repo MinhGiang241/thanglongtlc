@@ -3,7 +3,8 @@ import Landing from "../Landing";
 import Name from "../Name";
 import Intro from "../Intro";
 import Field from "../Field";
-import Project from "../Project"
+import Project from "../Project";
+import Contact from "../Contact";
 
 const Container = () => {
 	return (
@@ -12,7 +13,8 @@ const Container = () => {
 			<Name />
 			<Intro />
 			<Field />
-			<Project/>
+			<Project />
+			<Contact />
 		</div>
 	);
 };
